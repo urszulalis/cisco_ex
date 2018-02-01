@@ -1,7 +1,8 @@
 
 # coding: utf-8
 
-# In[10]:
+# In[1]:
+
 
 
 import re
@@ -17,7 +18,6 @@ while v==1 :
     else:
         print ("Invalid IP address")
    
-
 while va==1 :
     b= input ("Enter subnet mask in decimal format:")
     sec_pattern= r'(^\/([0-9]|[1-2][0-9]|3[0-2])$)'
@@ -87,4 +87,5 @@ broad2=int(brod_bin[8:16],2)
 broad3=int(brod_bin[16:24],2)
 broad4=int(brod_bin[-8:],2)
 print('broadcast address is: ',broad1,'.',broad2,'.',broad3,'.',broad4,b, sep='')
+
 
