@@ -81,6 +81,7 @@ def broadcast(str1, strMask):
             
 brod_bin=broadcast(netfull,binarymask)
 
+
 broad1=int(brod_bin[:8],2)
 broad2=int(brod_bin[8:16],2)
 broad3=int(brod_bin[16:24],2)
